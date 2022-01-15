@@ -2,7 +2,7 @@
 layout: post
 title: You're up and running!
 ---
-Bloggggg
+Blogggggddddddddddddddddddddddd
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
