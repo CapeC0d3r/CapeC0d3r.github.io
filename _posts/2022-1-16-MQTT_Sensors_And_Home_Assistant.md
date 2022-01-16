@@ -13,19 +13,19 @@ I installed the [Mosquitto Broker](https://www.home-assistant.io/docs/mqtt/broke
 
 These links were helpful: 
 
-https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md
+[Mosquitto Broker Documentation](https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md)
 
-https://cyan-automation.medium.com/setting-up-mqtt-and-mosquitto-in-home-assistant-20eb810a91e6
+[Mosquitto Broker Home Assistant Blog Post](https://cyan-automation.medium.com/setting-up-mqtt-and-mosquitto-in-home-assistant-20eb810a91e6)
 
-https://www.youtube.com/watch?v=dqTn-Gk4Qeo
+[Helpful Video](https://www.youtube.com/watch?v=dqTn-Gk4Qeo)
 
-Then I read about [configuring MQTT sensors in Home Assistant](https://www.home-assistant.io/integrations/sensor.mqtt/) and came to the conclusion that I should read up on [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).  I found this [ESP module MQTT example](https://github.com/smrtnt/Open-Home-Automation/tree/master/ha_mqtt_sensor_dht22) at the bottom of the page, and decided to load it onto an ESP32 dev board to see if I could get it reporting some fake data on my Home Assistant dashboard.  I cloned the repository it was in and was stoked to see it had a bunch of different MQTT examples. 
+Then I read about [configuring MQTT sensors in Home Assistant](https://www.home-assistant.io/integrations/sensor.mqtt/) and came to the conclusion that I should read up on [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).  I found this [ESP module MQTT example](https://github.com/smrtnt/Open-Home-Automation/tree/master/ha_mqtt_sensor_dht22), and decided to load it onto an ESP32 dev board to see if I could get it reporting some fake data on my Home Assistant dashboard.  I cloned the repository it was in and was stoked to see it had a bunch of different MQTT examples that I can mess around with later. 
 
 I noticed that the repository is  no longer maintained and that it points you to [ESPHome](https://esphome.io/guides/getting_started_hassio.html).  Normally I would jump down that rabbit hole immediately, but today I am going to focus on getting some basics accomplished before moving on to ESPHome. 
 
-I hacked up the DHT22 example in the repository that I pointed to, and made an example that publishes data to a topic and subscribes to a topic for incoming communication. 
+I hacked up the DHT22 example in the repository that I pointed to, and made an example that publishes data to a topic, and subscribes to a topic for incoming communication. 
 
-Here is a template to get started with.  Install / setup mosquitto broker on home assistant, and update the network / mqtt broker information at the top of main.cpp. 
+Here is a template to get started with.  First, install / setup mosquitto broker on home assistant, and update the network / mqtt broker information at the top of main.cpp. 
 
 https://github.com/CapeC0d3r/ESP32_MQTT_Template_Example
 
