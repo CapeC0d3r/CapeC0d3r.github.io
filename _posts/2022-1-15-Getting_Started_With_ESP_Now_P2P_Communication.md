@@ -3,7 +3,7 @@ layout: post
 title: Getting Started With ESPNOW P2P Communication
 ---
 
-![ESP_P2P]({{ site.baseurl }}/images/esp32p2p.jfif)
+![ESP_P2P]({{ site.baseurl }}/images/2022-1-15-Getting_Started_With_ESP_Now_P2P_Communication/esp32p2p.jfif)
 
 [ESP-NOW Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html)
 
