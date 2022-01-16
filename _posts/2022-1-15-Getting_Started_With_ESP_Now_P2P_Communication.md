@@ -13,4 +13,7 @@ title: Getting Started With ESPNOW P2P Communication
 
 I used it to make this [ESP P2P Example](https://github.com/CapeC0d3r/ESP_NOW_Example).  
 
+I loaded it on to a few ESP modules and they communicated with each other.  There is one in my basement controlling an LED in my office right now.  If I do more with it, I'll write about it. 
+
 That's all I got for now.  I will write more when I have time to mess around with it more. 
+
