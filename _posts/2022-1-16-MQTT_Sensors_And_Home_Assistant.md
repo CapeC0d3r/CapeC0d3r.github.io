@@ -3,7 +3,7 @@ layout: post
 title: MQTT Sensors and Home Assistant
 ---
 
-![MQTT_Diagram]({{ site.baseurl }}/images/2022-1-16-MQTT_Sensors_And_Home_Assistant/mqtt.jpg)
+![MQTT_Diagram]({{ site.baseurl }}/images/2022-1-16-MQTT_Sensors_And_Home_Assistant/MQTT.jpg)
 
 I have been meaning to set up [Home Assistant](https://www.home-assistant.io/) at my house.  I had it installed on a raspberry pi, but I already have a computer that is running 24/7 recording IP Cameras using Blue Iris, so I just spun up a [Home Assistant virtual machine](https://www.home-assistant.io/installation/windows/) on that computer and saved the pi for another project. 
 
